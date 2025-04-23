@@ -26,7 +26,7 @@ if(year%4==0):
 else:
     print(f"{year} is not a leap year.")
 
-''' Q3 Write a program that takes a percentage (integer) as input and prints the corresponding grade based
+''' Q4 Write a program that takes a percentage (integer) as input and prints the corresponding grade based
 on the following criteria:
 >= 90: Grade A
 >= 80: Grade B
@@ -44,3 +44,11 @@ if(precentage>=60 and precentage<70):
     print("your Grade is D")
 if(precentage<60):
     print("your Grade is F")
+
+# Q5 Write a program that checks if a given letter is a vowel (a, e, i, o, u) or a consonant.
+character = input("Enter your character: ")
+
+if character in "aeiou":
+    print("This is a vowel")
+else:
+    print("It's a consonant")
