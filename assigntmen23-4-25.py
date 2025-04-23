@@ -25,3 +25,22 @@ if(year%4==0):
         print(f"{year} is not a leap year.")
 else:
     print(f"{year} is not a leap year.")
+
+''' Q3 Write a program that takes a percentage (integer) as input and prints the corresponding grade based
+on the following criteria:
+>= 90: Grade A
+>= 80: Grade B
+>= 70: Grade C
+>= 60: Grade D
+< 60: Grade F'''
+precentage=int(input("enter your  percentage"))
+if(precentage>=90 ):
+    print("your Grade is A")
+if(precentage>=80 and precentage<90):
+    print("your Grade is B")
+if(precentage>=70 and precentage<80):
+    print("your Grade is C")
+if(precentage>=60 and precentage<70):
+    print("your Grade is D")
+if(precentage<60):
+    print("your Grade is F")
