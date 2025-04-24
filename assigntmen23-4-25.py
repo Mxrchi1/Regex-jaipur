@@ -71,4 +71,12 @@ elif(day==7):
     print("its sunday ")
 else:
     print("inavlid day of week")
-    
+# Q8 Write a program that checks if a username and password entered by the user match the pre-set values username = "admin" and password = "1234". If both match, print "Login Successful", otherwise print "Login Failed".
+
+username= input("enter  your username ")
+password= input("enter your password ")
+
+if(username=="admin" and password=="1234"):
+    print("Login success!")
+else:
+    print("Login failed ")    
