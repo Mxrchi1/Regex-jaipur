@@ -6,9 +6,9 @@ else:
     print("the number is odd")
 
 # Q2 Write a program that takes three numbers as input and prints the largest of the three.
-a = int(input("enter your values 1 "))
-b = int(input("enter your values 2 "))
-c = int(input("enter your values 3 "))
+a = int(input("enter your values for a "))
+b = int(input("enter your values for b "))
+c = int(input("enter your values for c "))
 if (a>b and a>c ):
     print("a is greater")
 elif (b>a and b>c ):
@@ -52,3 +52,23 @@ if character in "aeiou":
     print("This is a vowel")
 else:
     print("It's a consonant")
+
+# Q15 Write a program that takes an integer (1-7) as input and prints the corresponding day of the week (1 for Monday, 2 for Tuesday, etc.).
+day= int(input("enter day of week"))
+if(day==1):
+    print("its Monday ")
+elif(day==2):
+    print("its Tueday ")
+elif(day==3):
+    print("its wednesday ")
+elif(day==4):
+    print("its thursday ")
+elif(day==5):
+    print("its Friday ")
+elif(day==6):
+    print("its saturday ")
+elif(day==7):
+    print("its sunday ")
+else:
+    print("inavlid day of week")
+    
