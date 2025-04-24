@@ -80,3 +80,53 @@ if(username=="admin" and password=="1234"):
     print("Login success!")
 else:
     print("Login failed ")    
+
+# Q7 Write a program that takes a number as input and checks whether it is positive, negative, or zero.
+
+number = float(input("Enter a number: "))
+if number > 0:
+    print("The number is positive.")
+elif number < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
+
+''' Q11 Write a program that calculates the discount for a product based on its price:
+If price is greater than 1000, discount is 10%
+If price is between 500 and 1000, discount is 5%
+Otherwise, no discount
+Print the final price after applying the discount.'''
+price = float(input("Enter the price of the product: "))
+if price > 1000:
+    discount = price * 0.10  
+elif price >= 500 and price <= 1000:
+    discount = price * 0.05  
+else:
+    discount = 0  
+final_price = price - discount
+print("Final price after discount is:", final_price)
+
+''' Q14 Write a program that categorizes a given age into different groups:
+Infant (0-1 year)
+Toddler (2-4 years)
+Child (5-12 years)
+Teenager (13-19 years)
+Adult (20-59 years)
+Senior (60 years and above)'''
+age = int(input("Enter the age: "))
+
+if age >= 0 and age <= 1:
+    print("Infant")
+elif age >= 2 and age <= 4:
+    print("Toddler")
+elif age >= 5 and age <= 12:
+    print("Child")
+elif age >= 13 and age <= 19:
+    print("Teenager")
+elif age >= 20 and age <= 59:
+    print("Adult")
+elif age >= 60:
+    print("Senior")
+else:
+    print("Invalid age")
+
